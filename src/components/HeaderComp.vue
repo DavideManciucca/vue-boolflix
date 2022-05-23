@@ -11,6 +11,9 @@ export default {
     return{
       text:''
     }
+  },
+  methods:{
+    
   }
 
 }

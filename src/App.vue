@@ -26,7 +26,6 @@ export default {
   data(){
     return{
       apiUrl:'https://api.themoviedb.org/3/search/movie',
-      listaFilm:[],
       myApiParams:{
         api_key:'71a30d6971b91b949b6f3933c61ff2ad',
         language:'it-IT',
@@ -36,7 +35,9 @@ export default {
         // poster_path:'',
       },
       // listaFilm:[],
-      listaSerieTv:[]
+      listaSerieTv:[],
+      listaFilm:[],
+
 
     }
   },

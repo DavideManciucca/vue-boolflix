@@ -2,10 +2,10 @@
   <div>
     
     <div>
-    <h1>titolo</h1>
-    <p>titolo originale</p>
-    <p>lingua</p>
-    <p>voto</p>
+    <h1>{{cardData.title}}</h1>
+    <p>{{cardData.original_title}}</p>
+    <p>{{cardData.originel_language}}</p>
+    <p>{{cardData.vote_average}}</p>
   </div>
 
   </div>
@@ -15,7 +15,7 @@
 export default {
   name:'CardComp',
   props:{
-    apiValue:Object
+    cardData:Object
   }
 }
 </script>
